@@ -1,6 +1,14 @@
 package main
 
-func main() {
+import (
+	"fmt"
+	"time"
+)
 
-	day_two()
+func main() {
+	start := time.Now()
+	day_three()
+	elapsed := time.Since(start)
+	fmt.Println()
+	fmt.Println(elapsed)
 }
