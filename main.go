@@ -7,7 +7,7 @@ import (
 
 func main() {
 	start := time.Now()
-	day_four()
+	day_five()
 	elapsed := time.Since(start)
 	fmt.Println()
 	fmt.Println(elapsed)
